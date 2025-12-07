@@ -1,0 +1,128 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #ececec;
+    padding: 30px;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+
+/* HEADER */
+h1 {
+    text-align: center;
+    color: #700000;
+    font-size: 34px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #8b1c1c;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #8b1c1c;
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-left: 6px solid #8b1c1c;
+    padding-left: 10px;
+}
+
+/* SECTION */
+.section {
+    background: #fafafa;
+    padding: 20px;
+    margin-bottom: 35px;
+    border-left: 5px solid #8b1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.section p {
+    margin-bottom: 12px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* FOTO */
+.photo-box {
+    text-align: center;
+    padding: 15px;
+    background: #fff1f1;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid #e5c2c2;
+}
+
+img {
+    width: 250px;
+    border-radius: 14px;
+    border: 3px solid #8b1c1c;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.label {
+    background: #8b1c1c;
+    padding: 6px 13px;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* GARIS PEMBATAS */
+hr {
+    border: none;
+    border-bottom: 2px solid #8b1c1c;
+    margin: 25px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 90%;
+    }
+}
